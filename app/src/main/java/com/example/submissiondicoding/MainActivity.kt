@@ -5,24 +5,23 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.ListView
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
-class MainActivity : AppCompatActivity() , View.OnClickListener {
-    private lateinit var rec: RecyclerView
+class MainActivity : AppCompatActivity(), View.OnClickListener {
+    private lateinit var listView: ListView
     private val list = ArrayList<Student>()
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        var abt:Button = findViewById(R.id.button)
+        val abt: Button = findViewById(R.id.button)
         abt.setOnClickListener(this)
 
-        rec = findViewById(R.id.recyc)
-        rec.setHasFixedSize(true)
+        listView = findViewById(R.id.listView)
         list.addAll(getList())
-        showRecyclerList()
+        showListView()
     }
 
     private fun getList(): ArrayList<Student> {
@@ -54,32 +53,33 @@ class MainActivity : AppCompatActivity() , View.OnClickListener {
         return list
     }
 
-    private fun showRecyclerList() {
-        rec.layoutManager = LinearLayoutManager(this)
-        val Adapt = Adapter(list)
-        rec.adapter = Adapt
+    private fun showListView() {
+        val adapter = Adapter(this, list)
+        listView.adapter = adapter
 
-        Adapt.setOnItemClickCallback(object : Adapter.OnItemClickCallback {
+        adapter.setOnItemClickCallback(object : Adapter.OnItemClickCallback {
             override fun onItemClicked(data: Student) {
-                showSelectedFilm(data)
+                showSelectedStudent(data)
             }
         })
+
+        listView.setOnItemClickListener { _, _, position, _ ->
+            showSelectedStudent(list[position])
+        }
     }
 
-
-
-    private fun showSelectedFilm(student: Student) {
-
-        val moveWithDataIntent = Intent(this@MainActivity, Detail::class.java)
-        moveWithDataIntent.putExtra(Detail.EXTRA_NAME, student.nama)
-        moveWithDataIntent.putExtra(Detail.EXTRA_NIM, student.nim)
-        moveWithDataIntent.putExtra(Detail.EXTRA_EMAIL, student.email)
-        moveWithDataIntent.putExtra(Detail.EXTRA_IMAGE, student.photo)
-        moveWithDataIntent.putExtra(Detail.EXTRA_ANGKATAN, student.angkatan)
-        moveWithDataIntent.putExtra(Detail.EXTRA_FAKULTAS, student.fakultas)
-        moveWithDataIntent.putExtra(Detail.EXTRA_PRODI, student.prodi)
-        moveWithDataIntent.putExtra(Detail.EXTRA_SEMESTERD, student.semesterd)
-        moveWithDataIntent.putExtra(Detail.EXTRA_STATUS, student.status)
+    private fun showSelectedStudent(student: Student) {
+        val moveWithDataIntent = Intent(this@MainActivity, Detail::class.java).apply {
+            putExtra(Detail.EXTRA_NAME, student.nama)
+            putExtra(Detail.EXTRA_NIM, student.nim)
+            putExtra(Detail.EXTRA_EMAIL, student.email)
+            putExtra(Detail.EXTRA_IMAGE, student.photo)
+            putExtra(Detail.EXTRA_ANGKATAN, student.angkatan)
+            putExtra(Detail.EXTRA_FAKULTAS, student.fakultas)
+            putExtra(Detail.EXTRA_PRODI, student.prodi)
+            putExtra(Detail.EXTRA_SEMESTERD, student.semesterd)
+            putExtra(Detail.EXTRA_STATUS, student.status)
+        }
         startActivity(moveWithDataIntent)
     }
 

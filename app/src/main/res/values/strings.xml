@@ -1,0 +1,233 @@
+
+<resources>
+    <string name="app_name">MuridUsu</string>
+    <string name="heroes_name">Nama Usu</string>
+    <string name="description">buat gdsc</string>
+    <string name="tahun">Tahun</string>
+
+    <string-array name="data_nama">
+        <item>MUHAMMAD NAYAKA PUTRA</item>
+        <item>KHARA KIASATY</item>
+        <item>AYUMI SYAHIRAH HARAHAP</item>
+        <item>Ikhwan Prananta Hasugian</item>
+        <item>NURUL AINI</item>
+        <item>ARMILA SAKINAH HASIBUAN</item>
+        <item>Ayu Faradila Sukma</item>
+        <item>G. NATASIA SILITONGA</item>
+        <item>MEGA PURNAMA BR SITANGGANG</item>
+        <item>SOFIE HASIANA</item>
+        <item>KUKRIT FITIPALDI PIROU</item>
+        <item>JEANNE APRILIA SARI Br SIMANULLANG</item>
+        <item>Gita Natasya Angelica</item>
+        <item>Sarah Louisa Panjaitan</item>
+        <item>SAMUEL RINTO SIANIPAR</item>
+        <item>CAESAR CHRISTNESTA SIPAYUNG</item>
+        <item>Luqman Ghani Adlan Hasibuan</item>
+        <item>Suwita</item>
+        <item>Rahmahadis Pratami Sitorus</item>
+        <item>Febrina Siregar</item>
+        <item>Nada Syifa Ananda Zn</item>
+    </string-array>
+
+    <string-array name="data_nim">
+        <item>221402001</item>
+        <item>221402002</item>
+        <item>221402003</item>
+        <item>221402004</item>
+        <item>221402005</item>
+        <item>221402018</item>
+        <item>210901047</item>
+        <item>210901048</item>
+        <item>210901049</item>
+        <item>220100061</item>
+        <item>220100062</item>
+        <item>220100063</item>
+        <item>220100064</item>
+        <item>220100065</item>
+        <item>220100066</item>
+        <item>220100067</item>
+        <item>170600034</item>
+        <item>170600035</item>
+        <item>170600036</item>
+        <item>170600037</item>
+        <item>170600038</item>
+
+    </string-array>
+
+    <string-array name="data_email">
+        <item>nayakaputra773@gmail.com</item>
+        <item>kharakiasaty2004@gmail.com</item>
+        <item>ayumipcy23@gmail.com</item>
+        <item>nanta2612@gmail.com</item>
+        <item>nrlaini04@gmail.com</item>
+        <item>armilasakinahhasibuan@gmail.com</item>
+        <item>ayuradilasukma@gmail.com</item>
+        <item>gracesilitonga657@gmail.com</item>
+        <item>megasitanggang93@gmail.com</item>
+        <item>hasianasofie7@gmail.com</item>
+        <item>kukritpirou@gmail.com</item>
+        <item>jeanneaprilia21@gmail.com</item>
+        <item>gitanatasyasa@gmail.com</item>
+        <item>sarahlouisa.sl26@gmail.com</item>
+        <item>samuelsianipar6@gmail.com</item>
+        <item>niesta04@gmail.com</item>
+        <item>luqmanghani8225@gmail.com</item>
+        <item>suwitawita686@gmail.com</item>
+        <item>rahmahadiss.008@gmail.com</item>
+        <item>febrinasiregar03@gmail.com</item>
+        <item>nadasyifaanandazn@gmail.com</item>
+
+    </string-array>
+
+    <string-array name="data_photo">
+        <item>https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Sir_Winston_Churchill_-_19086236948.jpg/1280px-Sir_Winston_Churchill_-_19086236948.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/e/e1/Hitler_portrait_crop.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/4/42/FDR_1944_Color_Portrait.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/4/43/Stalin_Full_Image.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/67/Mussolini_biografia.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/9/96/Hideki_Tojo_2_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/63/Dwight_D._Eisenhower%2C_official_photo_portrait%2C_May_29%2C_1959.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/9/92/MacArthur_Manila.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/f4/Heisenberg%2CWerner_1926.jpeg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/8/85/Oppenheimer_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/8/86/Charles_Darwin_seated.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/7/79/Tesla_circa_1890.jpeg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/d/d5/Jeffrey_Dahmer_HS_Yearbook.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/c/cc/Ted_Bundy_headshot.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/d/d4/Karl_Marx_001.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/0/05/Martin_Luther_King%2C_Jr..jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/6/6c/Jeff_Bezos_at_Amazon_Spheres_Grand_Opening_in_Seattle_-_2018_%2839074799225%29_%28cropped%29.jpg</item>
+        <item>https://upload.wikimedia.org/wikipedia/commons/f/fc/Bill_Gates_-_2023_-_P062021-967902_%28cropped%29.jpg</item>
+
+    </string-array>
+
+    <string-array name="data_angkatan">
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2021</item>
+        <item>2021</item>
+        <item>2021</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2022</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+
+    </string-array>
+
+    <string-array name="data_fakultas">
+        <item>ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</item>
+        <item>ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</item>
+        <item>ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</item>
+        <item>ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</item>
+        <item>ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</item>
+        <item>ILMU KOMPUTER DAN TEKNOLOGI INFORMASI</item>
+        <item>ILMU SOSIAL DAN ILMU POLITIK</item>
+        <item>ILMU SOSIAL DAN ILMU POLITIK</item>
+        <item>ILMU SOSIAL DAN ILMU POLITIK</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN</item>
+        <item>KEDOKTERAN GIGI</item>
+        <item>KEDOKTERAN GIGI</item>
+        <item>KEDOKTERAN GIGI</item>
+        <item>KEDOKTERAN GIGI</item>
+        <item>KEDOKTERAN GIGI</item>
+    </string-array>
+
+    <string-array name="data_prodi">
+        <item>Teknologi Informasi</item>
+        <item>Teknologi Informasi</item>
+        <item>Teknologi Informasi</item>
+        <item>Teknologi Informasi</item>
+        <item>Teknologi Informasi</item>
+        <item>Teknologi Informasi</item>
+        <item>Sosiologi</item>
+        <item>Sosiologi</item>
+        <item>Sosiologi</item>
+        <item>Pendidikan Dokter</item>
+        <item>Pendidikan Dokter</item>
+        <item>Pendidikan Dokter</item>
+        <item>Pendidikan Dokter</item>
+        <item>Pendidikan Dokter</item>
+        <item>Pendidikan Dokter</item>
+        <item>Pendidikan Dokter</item>
+        <item>Sarjana Kedokteran Gigi</item>
+        <item>Sarjana Kedokteran Gigi</item>
+        <item>Sarjana Kedokteran Gigi</item>
+        <item>Sarjana Kedokteran Gigi</item>
+        <item>Sarjana Kedokteran Gigi</item>
+
+    </string-array>
+
+    <string-array name="data_semesterd">
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+
+    </string-array>
+
+    <string-array name="data_stat">
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>C</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>A</item>
+        <item>L</item>
+        <item>L</item>
+        <item>L</item>
+        <item>L</item>
+        <item>L</item>
+
+    </string-array>
+
+
+
+</resources>

@@ -16,7 +16,7 @@ class About : AppCompatActivity() {
         setContentView(R.layout.activity_about)
 
 
-        val imageUrl = "https://dicoding-web-img.sgp1.cdn.digitaloceanspaces.com/small/avatar/dos:7b6a8b844ec52ce1364914439361486e20230318144226.png"
+        val imageUrl = "https://media.licdn.com/dms/image/D5603AQHcVfxRwRndiw/profile-displayphoto-shrink_400_400/0/1709209186857?e=1720051200&v=beta&t=qmc_K6Eo6W0wHlnP__MtuWq92pOYP_MiMYP2B49s7Uc"
         val imageme: ImageView =findViewById(R.id.imageme)
 
         Glide.with(this)
